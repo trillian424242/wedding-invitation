@@ -28,7 +28,7 @@ const App = () => {
           textAlign: 'center',
         }}
       >
-        Copyright © 2021 KyuHyuk Lee
+
       </Footer>
     </>
   );
