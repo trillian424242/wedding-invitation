@@ -5,8 +5,8 @@ import renderMap from "../hook/mapScript";
 
 const Wrapper = styled.div`
   background: #efebe9;
-  padding-left: 42px;
-  padding-right: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 42px;
   width: 100%;
   text-align: center;
