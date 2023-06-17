@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { WEDDING_DATE, WEDDING_LOCATION, GROOM_NAME, BRIDE_NAME } from '../Config';
-import BackgroundVidio from '../Assets/BackgroundVideo.mp4';
+import BackgroundVideo from '../Assets/BackgroundVideo.mp4';
 
 const Layout = styled.div`
   width: 100%;
@@ -58,7 +58,7 @@ const Title = () => {
   return (
     <Layout>
       <VideoBackground autoPlay loop muted playsInline={true}>
-        <source src={BackgroundVidio} type="video/mp4" />
+        <source src={BackgroundVideo} type="video/mp4" />
       </VideoBackground>
       <TitleWrapper>
         <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
