@@ -5,6 +5,7 @@ import Title from './Components/Title';
 import Gretting from './Components/Greeting';
 import Gallery from './Components/Gallery';
 import Location from './Components/Location';
+import Map from './Components/Map';
 import CongratulatoryMoney from './Components/CongratulatoryMoney';
 import Share from './Components/Share';
 import GroovePaper from './Assets/GroovePaper.png';
@@ -17,7 +18,8 @@ const App = () => {
       <Title />
       <Gretting />
       <Gallery />
-      <Location />
+      <Map />
+      {/* <Location /> */}
       <CongratulatoryMoney />
       <Share />
       <Footer
