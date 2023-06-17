@@ -11,6 +11,13 @@ function renderMap() {
       };
 
   var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+  var markerPosition  = new kakao.maps.LatLng(lat, lon); 
+
+  var marker = new kakao.maps.Marker({
+      position: markerPosition
+  });
+
+  marker.setMap(map);
 }
 
 export default renderMap;
