@@ -19,7 +19,7 @@ declare global {
 }
 
 const Wrapper = styled.div`
-  background: #e4f5e8;
+  background: #f2fcf5;
   background-image: url(${GroovePaper});
   padding-left: 42px;
   padding-right: 42px;

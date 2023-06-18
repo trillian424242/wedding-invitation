@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Divider, message, Modal } from 'antd';
-import { CheckCircleTwoTone } from '@ant-design/icons';
 import styled from 'styled-components';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import Bride from '../Assets/bride.png';
@@ -23,7 +22,7 @@ import {
 import GroovePaper from '../Assets/GroovePaper.png';
 
 const Wrapper = styled.div`
-  background: #e4f5e8;
+  background: #f2fcf5;
   background-image: url(${GroovePaper});
   padding-left: 42px;
   padding-right: 42px;

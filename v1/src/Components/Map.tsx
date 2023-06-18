@@ -6,7 +6,7 @@ import Line2 from '../Assets/line2.png';
 import Line8 from '../Assets/line8.png';
 
 const Wrapper = styled.div`
-  background: #e4f5e8;
+  background: #f2fcf5;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 42px;

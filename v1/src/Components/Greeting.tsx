@@ -12,7 +12,7 @@ import {
 import GroovePaper from '../Assets/GroovePaper.png';
 
 const Wrapper = styled.div`
-  background: #e4f5e8;
+  background: #f2fcf5;
   background-image: url(${GroovePaper});
   padding-top: 42px;
   padding-left: 42px;
