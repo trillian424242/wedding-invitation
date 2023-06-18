@@ -24,7 +24,7 @@ const App = () => {
       <Share />
       <Footer
         style={{
-          background: '#D7CCC8',
+          background: '#c3e6cc',
           backgroundImage: `url(${GroovePaper})`,
           opacity: 0.6,
           textAlign: 'center',

@@ -20,7 +20,7 @@ import GalleryPhoto15 from '../Assets/(vertical)sea_black and white_3.jpg';
 import GroovePaper from '../Assets/GroovePaper.png';
 
 const Wrapper = styled.div`
-  background: #efebe9;
+  background: #e4f5e8;
   background-image: url(${GroovePaper});
   padding: 42px;
   width: 100%;
