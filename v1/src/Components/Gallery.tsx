@@ -9,14 +9,18 @@ import GalleryPhoto4 from '../Assets/farm_4.jpg';
 import GalleryPhoto5 from '../Assets/farm_5.jpg';
 import GalleryPhoto6 from '../Assets/farm_6.jpg';
 import GalleryPhoto7 from '../Assets/farm_7.jpg';
-import GalleryPhoto8 from '../Assets/sea_black and white.jpg';
-import GalleryPhoto9 from '../Assets/sea_black and white_2.jpg';
-import GalleryPhoto10 from '../Assets/sea_black and white_4.jpg';
-import GalleryPhoto11 from '../Assets/sea_black and white_5.jpg';
-import GalleryPhoto12 from '../Assets/(vertical)farm_.jpg';
-import GalleryPhoto13 from '../Assets/(vertical)farm_8.jpg';
-import GalleryPhoto14 from '../Assets/(vertical)farm_9.jpg';
-import GalleryPhoto15 from '../Assets/(vertical)sea_black and white_3.jpg';
+import GalleryPhoto8 from '../Assets/farm_8.jpg';
+import GalleryPhoto9 from '../Assets/sea_1.jpg';
+import GalleryPhoto10 from '../Assets/sea_black_and_white_1.jpg';
+import GalleryPhoto11 from '../Assets/sea_black_and_white_2.jpg';
+import GalleryPhoto12 from '../Assets/sea_black_and_white_3.jpg';
+import GalleryPhoto13 from '../Assets/sea_black_and_white_4.jpg';
+import GalleryPhoto14 from '../Assets/sea_black_and_white_6.jpg';
+import GalleryPhoto15 from '../Assets/(vertical)farm_8.jpg';
+import GalleryPhoto16 from '../Assets/(vertical)farm_9.jpg';
+import GalleryPhoto17 from '../Assets/(vertical)farm_10.jpg';
+import GalleryPhoto18 from '../Assets/(vertical)sea_black_and_white_5.jpg';
+
 
 const Wrapper = styled.div`
   background: #f2fcf5;
@@ -76,6 +80,15 @@ const images = [
   },
   {
     original: GalleryPhoto15, thumbnail: GalleryPhoto15,
+  },
+  {
+    original: GalleryPhoto16, thumbnail: GalleryPhoto16,
+  },
+  {
+    original: GalleryPhoto17, thumbnail: GalleryPhoto17,
+  },
+  {
+    original: GalleryPhoto18, thumbnail: GalleryPhoto18,
   }
 ];
 
