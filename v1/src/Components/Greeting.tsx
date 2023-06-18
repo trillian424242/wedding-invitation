@@ -9,11 +9,9 @@ import {
   BRIDE_FATHER_NAME,
   BRIDE_MOTHER_NAME,
 } from '../Config';
-import GroovePaper from '../Assets/GroovePaper.png';
 
 const Wrapper = styled.div`
   background: #f2fcf5;
-  background-image: url(${GroovePaper});
   padding-top: 42px;
   padding-left: 42px;
   padding-right: 42px;

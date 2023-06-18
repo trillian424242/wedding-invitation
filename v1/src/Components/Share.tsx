@@ -10,7 +10,6 @@ import {
   GROOM_NAME,
   BRIDE_NAME,
 } from '../Config';
-import GroovePaper from '../Assets/GroovePaper.png';
 
 declare global {
   interface Window {
@@ -20,7 +19,6 @@ declare global {
 
 const Wrapper = styled.div`
   background: #f2fcf5;
-  background-image: url(${GroovePaper});
   padding-left: 42px;
   padding-right: 42px;
   padding-bottom: 42px;

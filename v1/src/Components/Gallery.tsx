@@ -17,11 +17,9 @@ import GalleryPhoto12 from '../Assets/(vertical)farm_.jpg';
 import GalleryPhoto13 from '../Assets/(vertical)farm_8.jpg';
 import GalleryPhoto14 from '../Assets/(vertical)farm_9.jpg';
 import GalleryPhoto15 from '../Assets/(vertical)sea_black and white_3.jpg';
-import GroovePaper from '../Assets/GroovePaper.png';
 
 const Wrapper = styled.div`
   background: #f2fcf5;
-  background-image: url(${GroovePaper});
   padding: 42px;
   width: 100%;
 `;
