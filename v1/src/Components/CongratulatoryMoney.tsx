@@ -69,7 +69,7 @@ const ContactButton = styled.div`
 `;
 
 const Image = styled.img`
-  height: 10em;
+  height: 6em;
   width: auto;
   margin-bottom: 10px;
 `;
