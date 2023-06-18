@@ -3,6 +3,9 @@ import { Button, Divider, message, Modal } from 'antd';
 import { CheckCircleTwoTone } from '@ant-design/icons';
 import styled from 'styled-components';
 import CopyToClipboard from 'react-copy-to-clipboard';
+import Bride from '../Assets/bride.png';
+import Groom from '../Assets/groom.png';
+
 import {
   GROOM_NAME,
   GROOM_ACCOUNT_NUMBER,
@@ -65,6 +68,12 @@ const ContactButton = styled.div`
   margin-bottom: 24px;
 `;
 
+const Image = styled.img`
+  height: 10em;
+  width: auto;
+  margin-bottom: 10px;
+`;
+
 const CongratulatoryMoney = () => {
   const [groomVisible, setGroomVisible] = React.useState<boolean>(false);
   const [brideVisible, setBrideVisible] = React.useState<boolean>(false);
@@ -76,12 +85,14 @@ const CongratulatoryMoney = () => {
       </Divider>
       <Content>축하의 마음을 담아 축의금을 전달해 보세요.</Content>
       <ContactButton onClick={() => setGroomVisible(true)}>
-        <CheckCircleTwoTone style={{ fontSize: 64, marginBottom: 16 }} twoToneColor="#829fe0" />
+        <Image src={Groom}/>
+        {/* <CheckCircleTwoTone style={{ fontSize: 64, marginBottom: 16 }} twoToneColor="#829fe0" /> */}
         <br />
         <SubContent>신랑측 계좌번호 확인</SubContent>
       </ContactButton>
       <ContactButton onClick={() => setBrideVisible(true)}>
-        <CheckCircleTwoTone style={{ fontSize: 64, marginBottom: 16 }} twoToneColor="#fe7daf" />
+        <Image src={Bride}/>
+        {/* <CheckCircleTwoTone style={{ fontSize: 64, marginBottom: 16 }} twoToneColor="#fe7daf" /> */}
         <br />
         <SubContent>신부측 계좌번호 확인</SubContent>
       </ContactButton>
