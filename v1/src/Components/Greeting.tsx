@@ -60,9 +60,9 @@ const Gretting = () => {
         앞날을 축복해 주시면 감사하겠습니다.
       </Content>
       <GroomBride>
-        {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
+        {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME.substring(1)}
         <br />
-        {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 차녀 {BRIDE_NAME}
+        {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 차녀 {BRIDE_NAME.substring(1)}
       </GroomBride>
     </Wrapper>
   );
