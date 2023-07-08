@@ -23,7 +23,7 @@ import GalleryPhoto18 from '../Assets/(vertical)sea_black_and_white_5.jpg';
 
 
 const Wrapper = styled.div`
-  background: #f2fcf5;
+  background: #f6f6f6;
   padding: 42px;
   width: 100%;
 `;

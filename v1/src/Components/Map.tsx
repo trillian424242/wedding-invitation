@@ -6,7 +6,7 @@ import Line2 from '../Assets/line2.png';
 import Line8 from '../Assets/line8.png';
 
 const Wrapper = styled.div`
-  background: #f2fcf5;
+  background: #f6f6f6;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 42px;
@@ -55,8 +55,8 @@ export default function Map() {
         8호선<Image src={Line8} /> 잠실역 9번 출구 약 30m (도보 2분)<br />
         <br />
         <b>버스</b><br />
-        간선🔵 301, 302, 303, 320, 341<br />
-        지선🟢 2311, 2412, 2415, 3313, 3411, 3412, 4319<br />
+        <b>간선</b> 301, 302, 303, 320, 341<br />
+        <b>지선</b> 2311, 2412, 2415, 3313, 3411, 3412, 4319<br />
         <br />
         <b>주차</b><br />
         교통회관 지상•지하 주차장 이용(2시간 무료주차)<br />

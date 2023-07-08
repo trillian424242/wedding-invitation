@@ -11,7 +11,7 @@ import {
 } from '../Config';
 
 const Wrapper = styled.div`
-  background: #f2fcf5;
+  background: #f6f6f6;
   padding-top: 42px;
   padding-left: 42px;
   padding-right: 42px;

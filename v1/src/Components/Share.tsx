@@ -18,7 +18,7 @@ declare global {
 }
 
 const Wrapper = styled.div`
-  background: #f2fcf5;
+  background: #f6f6f6;
   padding-left: 42px;
   padding-right: 42px;
   padding-bottom: 42px;
@@ -34,8 +34,8 @@ const Title = styled.p`
 `;
 
 const KakaoTalkShareButton = styled(Button)`
-  background: #fee500;
-  border-color: #fee500;
+  background: #ffe997;
+  border-color: #fff0ba;
   color: #181600;
   &:hover {
     background-color: #fcf07e !important;
@@ -50,8 +50,8 @@ const KakaoTalkShareButton = styled(Button)`
 `;
 
 const LinkShareButton = styled(Button)`
-  background: #53acee;
-  border-color: #53acee;
+  background: #909090;
+  border-color: #f6f6f6;
   color: #ffffff;
   &:hover {
     background-color: #9fcbed !important;
