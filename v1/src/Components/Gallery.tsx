@@ -15,7 +15,7 @@ import GalleryPhoto10 from '../Assets/sea_black_and_white_1.jpg';
 import GalleryPhoto11 from '../Assets/sea_black_and_white_2.jpg';
 import GalleryPhoto12 from '../Assets/sea_black_and_white_3.jpg';
 import GalleryPhoto13 from '../Assets/sea_black_and_white_4.jpg';
-import GalleryPhoto14 from '../Assets/sea_black_and_white_6.jpg';
+// import GalleryPhoto14 from '../Assets/sea_black_and_white_6.jpg';
 // import GalleryPhoto15 from '../Assets/(vertical)farm_8.jpg';
 import GalleryPhoto16 from '../Assets/(vertical)farm_9.jpg';
 import GalleryPhoto17 from '../Assets/(vertical)farm_10.jpg';
@@ -71,9 +71,7 @@ const images = [
   {
     original: GalleryPhoto13, thumbnail: GalleryPhoto13,
   },
-  {
-    original: GalleryPhoto14, thumbnail: GalleryPhoto14,
-  },
+  // {original: GalleryPhoto14, thumbnail: GalleryPhoto14,},
   // {original: GalleryPhoto15, thumbnail: GalleryPhoto15,},
   {
     original: GalleryPhoto16, thumbnail: GalleryPhoto16,
