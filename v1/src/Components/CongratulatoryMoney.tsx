@@ -81,18 +81,18 @@ const CongratulatoryMoney = () => {
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
         <Title>축하의 마음을 전하세요</Title>
       </Divider>
-      <Content>축하의 마음을 담아 축의금을 전달해 보세요.</Content>
+      {/* <Content>축하의 마음을 담아 축의금을 전달해 보세요.</Content> */}
       <ContactButton onClick={() => setGroomVisible(true)}>
         <Image src={Groom}/>
         {/* <CheckCircleTwoTone style={{ fontSize: 64, marginBottom: 16 }} twoToneColor="#829fe0" /> */}
         <br />
-        <SubContent>신랑측 계좌번호 확인</SubContent>
+        <SubContent>신랑측 마음 전하기</SubContent>
       </ContactButton>
       <ContactButton onClick={() => setBrideVisible(true)}>
         <Image src={Bride}/>
         {/* <CheckCircleTwoTone style={{ fontSize: 64, marginBottom: 16 }} twoToneColor="#fe7daf" /> */}
         <br />
-        <SubContent>신부측 계좌번호 확인</SubContent>
+        <SubContent>신부측 마음 전하기</SubContent>
       </ContactButton>
       <Modal
         title={<b>신랑측 계좌번호</b>}
@@ -116,8 +116,7 @@ const CongratulatoryMoney = () => {
             </Button>
           </CopyToClipboard>
         </div>
-        <div>
-        {/* <div style={{ marginTop: 24, marginBottom: 24 }}> */}
+        {/* <div>
           <b>모) {GROOM_MOTHER_NAME}</b>
           <Divider type="vertical" />
           <CopyToClipboard text={GROOM_MOTHER_ACCOUNT_NUMBER}>
@@ -129,7 +128,7 @@ const CongratulatoryMoney = () => {
               {GROOM_MOTHER_ACCOUNT_NUMBER}
             </Button>
           </CopyToClipboard>
-        </div>
+        </div> */}
         <div>
           <b>신랑 {GROOM_NAME}</b>
           <Divider type="vertical" />
